@@ -8,6 +8,7 @@ import Friendly from '@/Components/Home/Friendly/Friendly';
 import Follow3Steps from '@/Components/Home/Follow3Steps/Follow3Steps';
 import BuyaCycle from '@/Components/Home/BuyaCycle/BuyaCycle';
 import ChooseUs from '@/Components/Home/ChooseUs/ChooseUs';
+import Footer from '@/Components/Home/Footer/Footer';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
 
         {/* Why choose us======================================   */}
       <ChooseUs />
+      <Footer />
     </main>
   )
 }
